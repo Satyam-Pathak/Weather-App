@@ -5,9 +5,9 @@ var img = document.querySelector('img')
 const Search = document.querySelector('form')
 Search.addEventListener('submit', (e) => {
   e.preventDefault();
-  Error.textContent = ''
-  temp.textContent = ''
-  clouds.textContent = ''
+  Error.textContent = ""
+  temp.textContent = ""
+  clouds.textContent = ""
   img.src = "";
   error.textContent = 'Loading...'
   const Location = document.querySelector('input').value
