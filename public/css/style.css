@@ -1,0 +1,34 @@
+body{
+    background: rgb(147 ,187 ,219 , 81%);
+    margin: 50px auto;
+}
+#error{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 36px;
+    color:red;
+}
+
+#temp,#clouds{
+    font-weight: bold;
+    font-size: 36px;
+}
+img{
+    border: 1px solid gray;
+    border-radius: 5px;
+    background: rgba(176 ,180 ,162, .87)
+}
+.shift{
+    padding-left: 100px;
+}
+center{
+    position: fixed;
+    bottom: 50px;
+    left:300px;
+}
+input,button{
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
