@@ -1,6 +1,8 @@
 body{
     background: rgb(147 ,187 ,219 , 81%);
     margin: 50px auto;
+    height: 100vh;
+    
 }
 #error{
     font-style: italic;
@@ -31,4 +33,12 @@ input,button{
     padding: 10px;
     border: 1px solid gray;
     border-radius: 5px;
+}
+button{
+    background-color:rgba(16, 115, 173, 0.445)
+}
+.footer{
+    position: absolute;
+    top:98vh;
+    margin-left:90px;
 }

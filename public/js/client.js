@@ -11,6 +11,8 @@ Search.addEventListener('submit', (e) => {
   img.src = "";
   error.textContent = 'Loading...'
   const Location = document.querySelector('input').value
+  document.querySelector('input').value="";
+  document.querySelector('input').focus();
   fetch("/weather?address=" + Location).then((response) => {
     response.json().then((data) => {
       if (data.error) {
